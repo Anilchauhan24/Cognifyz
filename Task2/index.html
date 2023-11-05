@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: aliceblue;
+            text-align: center;
+        }
+
+        #id {
+            border-radius: 20px;
+        }
+
+        button {
+            padding: 10px 12px;
+        }
+
+        #input {
+            width: 200px;
+            height: 30px;
+
+        }
+
+        #inputTwo {
+            width: 200;
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <input type="box" style="width:300px; height:200px; animation:colors 2s infinite" id="inp">
+        <br>
+        <button id="btn" onclick="changeColor()">Change Color </button>
+
+    </div>
+    <div>
+        <input type="text" id="input" value="" placeholder="enter your value">
+        <button> +</button>
+        <input type="text" id="inputTwo" value="" placeholder="enter your value">
+        <button type="submit" onclick="findSum()">ADD NOW</button>
+        <!-- <button type="submit" onclick="findSub()">ADD NOW</button> -->
+
+        <h2 id="newValue"></h2>
+    </div>
+
+    <script src="task2.js"></script>
+</body>
+
+</html>
