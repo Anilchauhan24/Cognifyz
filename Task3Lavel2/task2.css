@@ -14,7 +14,8 @@ img {
     height: 300px;
 }
 
-a {
+nav a {
     text-decoration: none;
+    font-weight: 600;
 
 }
